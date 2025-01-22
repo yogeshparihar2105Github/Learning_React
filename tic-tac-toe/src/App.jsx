@@ -42,59 +42,59 @@ function App() {
     // Updated winningStyles to account for the 25px gap
     const winningStyles = {
       '0,1,2': { 
-        top: '50px', 
-        left: '0px', 
+        top: '45px', 
+        left: '25px', 
         width: '350px', // 3 squares + 2 gaps
         height: '4px', 
         transform: 'rotate(0deg)' 
       },
       '3,4,5': { 
-        top: '175px', 
-        left: '0px', 
+        top: '165px', 
+        left: '25px', 
         width: '350px', 
         height: '4px', 
         transform: 'rotate(0deg)' 
       },
       '6,7,8': { 
-        top: '300px', 
-        left: '0px', 
+        top: '285px', 
+        left: '25px', 
         width: '350px', 
         height: '4px', 
         transform: 'rotate(0deg)' 
       },
       '0,3,6': { 
-        top: '0px', 
-        left: '50px', 
+        top: '15px', 
+        left: '56px', 
         width: '4px', 
-        height: '350px', 
+        height: '310px', 
         transform: 'rotate(0deg)' 
       },
       '1,4,7': { 
-        top: '0px', 
-        left: '175px', 
+        top: '15px', 
+        left: '196px', 
         width: '4px', 
-        height: '350px', 
+        height: '310px', 
         transform: 'rotate(0deg)' 
       },
       '2,5,8': { 
-        top: '0px', 
-        left: '300px', 
+        top: '15px', 
+        left: '337px', 
         width: '4px', 
-        height: '350px', 
+        height: '310px', 
         transform: 'rotate(0deg)' 
       },
       '0,4,8': { 
-        top: '0px', 
-        left: '0px', 
-        width: '500px', 
+        top: '25px', 
+        left: '25px', 
+        width: '450px', 
         height: '4px', 
         transform: 'rotate(40deg)', 
         transformOrigin: 'left top' 
       },
       '2,4,6': { 
-        top: '0px', 
-        left: '-100px', 
-        width: '500px', 
+        top: '25px', 
+        left: '-80px', 
+        width: '450px', 
         height: '4px', 
         transform: 'rotate(-40deg)', 
         transformOrigin: 'right top' 
