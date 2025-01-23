@@ -1,5 +1,10 @@
 /* App.css */
-
+html{
+  background-image: url('./assets/bg.jpg');
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: calc(50% - 970px) center;
+}
 body, html {
   height: 100%;
   margin: 0;
