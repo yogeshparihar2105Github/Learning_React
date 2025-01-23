@@ -1,10 +1,13 @@
 /* App.css */
-html{
+html {
   background-image: url('./assets/bg.jpg');
   background-size: cover;
   background-repeat: repeat;
-  background-position: calc(50% - 970px) center;
+  background-position: calc(50% - 650px) center;
+  transform: scale(0.8); 
+  transform-origin: center; 
 }
+
 body, html {
   height: 100%;
   margin: 0;
@@ -57,7 +60,7 @@ body, html {
 
 .winning-line {
   position: absolute;
-  background-color: red;
+  background-color: #e84707;
   z-index: 1;
   transition: all 0.3s ease;
 }
