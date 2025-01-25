@@ -10,7 +10,6 @@ function App() {
     <>
       <h1>Theme Changer</h1>
       <button onClick={() => setCount((count) => count + 1)}>Count: {count}</button>
-      <div>{count}</div>
     </>
   )
 }
